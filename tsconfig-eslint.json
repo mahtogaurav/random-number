@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "**/*.js"
+  ],
+  "exclude": [
+    "src/tests/**/*",
+    "lsp_artifacts/**/*",
+    "node_modules/**/*",
+    "coverage/**/*",
+    "dev-data/**/*",
+    "dist/**/*"
+  ]
+}

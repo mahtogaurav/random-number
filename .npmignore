@@ -1,0 +1,10 @@
+.eslintrc*
+.vscode/
+reports/
+.gitignore
+tsconfig*
+.history
+*.tgz
+jest.config.js
+Jenkinsfile
+.eslintoutputrc
