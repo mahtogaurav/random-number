@@ -1,0 +1,40 @@
+{
+  "name": "random-number",
+  "version": "1.0.0",
+  "description": "A random number generator",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf lib && rm -rf coverage",
+    "lint": "eslint .",
+    "test": "jest",
+    "dev": "npm run clean && npm run lint && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmahto-at/random-number.git"
+  },
+  "author": "Gaurav Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravmahto-at/random-number/issues"
+  },
+  "homepage": "https://github.com/gauravmahto-at/random-number#readme",
+  "dependencies": {
+    "@aristocrat/pure-utils": "2.4.9",
+    "bignumber.js": "9.0.0",
+    "tslib": "2.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "3.5.0",
+    "@typescript-eslint/eslint-plugin-tslint": "3.5.0",
+    "@typescript-eslint/parser": "3.5.0",
+    "eslint": "7.3.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-no-eslint-disable": "1.0.1",
+    "eslint-plugin-prefer-arrow": "1.2.1",
+    "jest": "26.1.0",
+    "tslint": "6.1.2",
+    "typescript": "3.9.5",
+    "typescript-tslint-plugin": "0.5.5"
+  }
+}

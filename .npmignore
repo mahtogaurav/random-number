@@ -1,0 +1,6 @@
+.eslintrc*
+.vscode/
+coverage/
+.gitignore
+tsconfig*
+.history
