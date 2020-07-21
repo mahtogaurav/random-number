@@ -1,2 +1,2 @@
 # random-number
-A random number generator
+A cryptographic secure random number generator

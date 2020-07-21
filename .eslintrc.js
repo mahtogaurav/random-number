@@ -313,14 +313,6 @@ module.exports = {
   overrides: [
     {
       files: [
-        '*.scene.ts'
-      ],
-      rules: {
-        'sort-keys': 'off'
-      }
-    },
-    {
-      files: [
         '*.js'
       ],
       rules: {

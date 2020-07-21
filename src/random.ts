@@ -1,7 +1,23 @@
+import { readFileSync } from 'fs';
 import { randomFill, randomFillSync } from 'crypto';
 import { promisify } from 'util';
+import { join } from 'path';
 
 import { deepFreeze, isSafeNonNegativeInteger, SAFE_ZERO, safeAdd, SafeNonNegativeInteger } from '@aristocrat/pure-utils';
+
+import { logger } from './logger';
+
+const log = logger('random');
+
+try {
+
+  log.info('random-number commit ' + readFileSync(join(__dirname, 'COMMIT')).toString('utf8'));
+
+} catch {
+
+  log.info('random-number commit EMPTY');
+
+}
 
 export interface RandomPool {
   readonly buffer: Buffer;

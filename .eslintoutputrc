@@ -1,0 +1,14 @@
+{
+  "files": ["."],
+  "formats": [
+    {
+      "name": "stylish",
+      "output": "console"
+    },
+    {
+      "name": "json",
+      "output": "file",
+      "path": "reports/lint.txt"
+    }
+  ]
+}
