@@ -11,6 +11,9 @@
     "dev": "npm run clean && npm run lint && tsc",
     "prod": "npm run clean && npm run lint-report && jest && tsc && git rev-parse HEAD > ./lib/COMMIT"
   },
+  "publishConfig": {
+    "registry": "https://artifactory.aristocrat-b2b-dev.com/artifactory/api/npm/DGS_virtual_registry"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aristocrat-B2B/random-number.git"
