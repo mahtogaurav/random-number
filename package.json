@@ -1,5 +1,5 @@
 {
-  "name": "@aristocrat/random-number",
+  "name": "random-number",
   "version": "1.0.0",
   "description": "A cryptographic secure random number generator",
   "main": "lib/index.js",
@@ -11,19 +11,16 @@
     "dev": "npm run clean && npm run lint && tsc",
     "prod": "npm run clean && npm run lint-report && jest && tsc && git rev-parse HEAD > ./lib/COMMIT"
   },
-  "publishConfig": {
-    "registry": "https://artifactory.aristocrat-b2b-dev.com/artifactory/api/npm/DGS_virtual_registry"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aristocrat-B2B/random-number.git"
+    "url": "git+https://github.com/gauravmahto-at/random-number.git"
   },
   "author": "Gaurav Mahto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aristocrat-B2B/random-number/issues"
+    "url": "https://github.com/gauravmahto-at/random-number/issues"
   },
-  "homepage": "https://github.com/Aristocrat-B2B/random-number#readme",
+  "homepage": "https://github.com/gauravmahto-at/random-number#readme",
   "dependencies": {
     "@aristocrat/pure-utils": "2.4.9",
     "tslib": "2.0.0"
